@@ -1,0 +1,6 @@
+{
+    "testFiles": "**/*.feature",
+    "env":{
+      "sit":"https://bookmyshow.com/"
+    }
+  }

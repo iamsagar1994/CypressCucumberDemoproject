@@ -1,0 +1,30 @@
+{
+  "name": "maerskcypressassignment",
+  "version": "1.0.0",
+  "description": "bookmyshow tickets booking",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run --spec cypress//integration//Cucumbertests//*.feature --headed --browser chrome",
+    "report":"node cypress//cucumber-html-report.js"
+  },
+  "author": "Sagar",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.7.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-iframe": "^1.0.1",
+    "mochawesome": "^7.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "nonGlobalStepDefinitions": true
+  }
+}

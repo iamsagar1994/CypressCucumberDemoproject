@@ -1,0 +1,292 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "bookMovieTickets",
+    "line": 1,
+    "id": "bookmovietickets",
+    "tags": [],
+    "uri": "bookMovieTickets.feature",
+    "elements": [
+      {
+        "id": "bookmovietickets;book-movie-tickets-for-first-available-movie-and-first-available-showtime",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "book Movie Tickets for first available Movie and first available showtime",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user visited the bookmyshowwebpage",
+            "result": {
+              "status": "passed",
+              "duration": 12768000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user select the city",
+            "result": {
+              "status": "passed",
+              "duration": 540000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "verify city is selected",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user select movietheatre",
+            "result": {
+              "status": "passed",
+              "duration": 8050000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user select the first available movie and show time",
+            "result": {
+              "status": "passed",
+              "duration": 1360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user select the number of seats",
+            "result": {
+              "status": "passed",
+              "duration": 312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user select the first available seats",
+            "result": {
+              "status": "passed",
+              "duration": 778000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "display the ticket numbers",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "bookmovietickets;book-movie-tickets-for-user-selected-movie-and-first-available-showtime",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "book Movie Tickets for user selected Movie and first available showtime",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user visited the bookmyshowwebpage",
+            "result": {
+              "status": "passed",
+              "duration": 8774000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user select the city",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "verify city is selected",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user select movietheatre",
+            "result": {
+              "status": "passed",
+              "duration": 5403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user select the movie",
+            "result": {
+              "status": "passed",
+              "duration": 2762000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user select the first available show time",
+            "result": {
+              "status": "passed",
+              "duration": 1488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "user select the number of seats",
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user select the first available seats",
+            "result": {
+              "status": "passed",
+              "duration": 802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "display the ticket numbers",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "bookmovietickets;book-movie-tickets-for-user-selected-movie-and-user-selected-show-time",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "book Movie Tickets for user selected Movie and user selected show time",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "user visited the bookmyshowwebpage",
+            "result": {
+              "status": "passed",
+              "duration": 7495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "user select the city",
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "verify city is selected",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "user select movietheatre",
+            "result": {
+              "status": "passed",
+              "duration": 4150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "user select the movie",
+            "result": {
+              "status": "passed",
+              "duration": 2780000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "user select show time",
+            "result": {
+              "status": "passed",
+              "duration": 1286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "user select the first available seats",
+            "result": {
+              "status": "passed",
+              "duration": 910000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "display the ticket numbers",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
