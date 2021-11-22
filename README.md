@@ -1,6 +1,7 @@
 # CypressCucumberDemoproject online movie tickets booking for Maersk
 
 Note: Please use git pull origin master to pull the code 
+
 Cypress Cucumber Demo Project on online Movie tickets Booking
 This project is created for demo purpose for cypress Automation.
 I used an online movie tickets booking website as Application under test and three test cases are written to book tickets in multiple ways 
