@@ -21,10 +21,10 @@ NPM package manager should be available
 
 Installation 
 1. Open Cypress folder and open Terminal/CMD 
-2. run command npm install(this should install all dependencies)
+2. run command npm install(this should install all dependencies) use **npm audit fix --force** in case any vunlerabilities
 
 Steps to Run test cases 
-1. run command npm run test 
+1. run command **npm run test** always run from cypress folder like **"C:\Users\Sagar\Documents\Maersktest\cypress> npm run test"**
     (Above command will launch all feature files in folder integration\Cucumbertests for now there is only one feature file
     will run test in chrome in headed mode )
 2. post all three scenarios ran , run command npm run report
