@@ -2,8 +2,8 @@
 Cypress.Commands.add('searchListandclick', (locator, value) => {
     cy.get(locator).each(($el, index, $list) => {
         if ($el.text().includes(value)) {
-            cy.get(locator).eq(index).click({force:true})
-            return false
+            cy.get(locator).eq(index).click({force:true}).then(function(){return false})
+            
         }
     })
 })
